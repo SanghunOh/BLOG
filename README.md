@@ -1,4 +1,3 @@
-# BLOG
 Poki's blog
 ===========
 

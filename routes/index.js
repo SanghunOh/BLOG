@@ -3,7 +3,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Poki', header: 0 });
+    res.render('index', { title: 'Poki' });
 });
+
+router.get('/login', function(req, res) {
+    res.render('login', {title: 'Poki'});
+})
+
+router.post('/register', (req, res) => {
+    res.render('register', {title: 'Poki'});    
+})
 
 module.exports = router;

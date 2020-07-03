@@ -6,6 +6,10 @@ body {
 /*
   Header Navbar
 */
+#navbar{
+  position: fixed;
+}
+
 @media screen and (max-width:769px){
   #loginBtn{
     visibility: hidden;
@@ -123,4 +127,14 @@ body {
   .form-label-group input:-ms-input-placeholder {
     color: #777;
   }
+}
+
+
+/* Memo control*/
+
+.memo-control{
+  min-height: 60px;
+  border: 1px solid #C8C1BF;
+  padding: 10px;
+  cursor:default;
 }
